@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جورج | Flutter Developer & Software Engineer</title>
+    <style>
+        :root {
+            --primary-color: #0284c7;
+            --dark-color: #1e293b;
+            --light-color: #f8fafc;
+            --gray-color: #64748b;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: var(--light-color);
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0284c7, #0369a1);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: white;
+            color: var(--primary-color);
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #f1f5f9;
+        }
+        container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        section h2 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--light-color);
+            padding-bottom: 10px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            margin-top: 15px;
+        }
+        .skills-list li {
+            background: #e0f2fe;
+            color: var(--primary-color);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        .project-card {
+            border: 1px solid #e2e8f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .project-card h3 {
+            margin-bottom: 5px;
+            color: var(--dark-color);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--gray-color);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- الواجهة الرئيسية -->
+    <header>
+        <h1>أهلاً، أنا جورج</h1>
+        <p>مطور تطبيقات ومبرمج برمجيات (Flutter & Software Engineer)</p>
+        <a href="#contact" class="btn">تواصل معي</a>
+    </header>
+
+    <div style="max-width: 900px; margin: auto; padding: 20px;">
+        
+        <!-- قسم عني -->
+        <section>
+            <h2>عني</h2>
+            <p>مطور برمجيات بخبرة عملية في بناء وتطوير تطبيقات الموبايل باستخدام Flutter و Dart، بالإضافة إلى تصميم الواجهات وحل المشكلات البرمجية المختلفة لبناء تجارب مستخدم سلسة واحترافية.</p>
+        </section>
+
+        <!-- قسم المهارات -->
+        <section>
+            <h2>المهارات التقنية</h2>
+            <ul class="skills-list">
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Git & GitHub</li>
+                <li>VS Code & Android Studio</li>
+                <li>UI / UX Design</li>
+                <li>Database Management</li>
+            </ul>
+        </section>
+
+        <!-- قسم المشاريع -->
+        <section>
+            <h2>أبرز المشاريع</h2>
+            
+            <div class="project-card">
+    <h3>تطبيق الموبايل (Flutter Mobile App)</h3>
+    <p>تطبيق تفاعلي متعدد الشاشات تم تطويره باستخدام Flutter و Dart، مع دمج قوائم تنقل مخصصة وروابط ويب، وإدارة جودة البناء عبر GitHub و Codemagic.</p>
+</div>
+
+            <div class="project-card">
+                <h3>اسم المشروع الثاني (نظام إدارة / برنامج)</h3>
+                <p>وصف مختصر للمشروع الثاني والمهام اللي بيقوم بيها.</p>
+            </div>
+        </section>
+
+        <!-- قسم التواصل -->
+        <section id="contact">
+            <h2>تواصل معي</h2>
+            <p>يسعدني تواصلك معي للتعاون في مشاريع جديدة أو فرص عمل:</p>
+            <p style="margin-top: 15px;">
+                <strong>البريد الإلكتروني:</strong> georgelzordoky@gmail.com<br>
+                <strong>رابط GitHub:</strong> github.com/ georgelzordoky-gif
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2026 جورج</p>
+    </footer>
+
+</body>
+</html>
